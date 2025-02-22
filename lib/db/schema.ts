@@ -4,8 +4,8 @@ import { pgTable, varchar, timestamp, json, uuid, text, primaryKey, foreignKey, 
 export const org = pgTable("Org", {
   id: uuid("id").primaryKey().notNull().defaultRandom(),
   name: varchar("name", { length: 64 }).notNull(),
-  createdAt: timestamp("createdAt").notNull(),
-  updatedAt: timestamp("updatedAt").notNull(),
+  createdAt: timestamp("createdAt").notNull().defaultNow(),
+  updatedAt: timestamp("updatedAt").notNull().defaultNow(),
 });
 
 export type Org = InferSelectModel<typeof org>;
@@ -15,15 +15,28 @@ export const user = pgTable("User", {
   firstName: varchar("firstName", { length: 64 }),
   lastName: varchar('lastName', { length: 64 }),
   email: varchar("email", { length: 64 }).notNull(),
-  emailVerified: timestamp('emailVerified', { mode: 'date' }),
   password: varchar("password", { length: 64 }),
-  role: varchar('role', { enum: ['admin', 'user'] }).default('user'),
+  role: varchar('role', { enum: ['admin', 'user', 'staff'] }).default('user'),
   orgId: uuid('orgId')
     .notNull()
     .references(() => org.id),
 });
 
 export type User = InferSelectModel<typeof user>;
+
+export const invitation = pgTable("Invitation", {
+  id: uuid("id").primaryKey().notNull().defaultRandom(),
+  email: varchar("email", { length: 64 }).notNull(),
+  orgId: uuid("orgId")
+    .notNull()
+    .references(() => org.id),
+  role: varchar("role", { enum: ["admin", "user"] }).default("user"),
+  token: varchar("token", { length: 128 }).notNull(),
+  expiresAt: timestamp("expiresAt").notNull(),
+  accepted: boolean("accepted").default(false),
+});
+
+export type Invitation = InferSelectModel<typeof invitation>;
 
 export const chat = pgTable("Chat", {
   id: uuid("id").primaryKey().notNull().defaultRandom(),
