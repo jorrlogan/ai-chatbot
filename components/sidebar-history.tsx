@@ -239,7 +239,7 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
       <SidebarGroup>
         <SidebarGroupContent>
           <div className="px-2 text-zinc-500 w-full flex flex-row justify-center items-center text-sm gap-2">
-            Your conversations will appear here once you start chatting!
+            Your document requests will appear here once you start requesting!
           </div>
         </SidebarGroupContent>
       </SidebarGroup>

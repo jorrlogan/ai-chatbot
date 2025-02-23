@@ -16,6 +16,7 @@ import {
   message,
   vote,
   invitation,
+  org,
 } from "./schema";
 import type { ArtifactKind } from "@/components/artifact";
 
@@ -96,6 +97,47 @@ export async function getChatsByUserId({ id }: { id: string }) {
     return await db.select().from(chat).where(eq(chat.userId, id)).orderBy(desc(chat.createdAt));
   } catch (error) {
     console.error("Failed to get chats by user from database");
+    throw error;
+  }
+}
+
+export async function getUserById({ id }: { id: string }) {
+  try {
+    const [result] = await db.select().from(user).where(eq(user.id, id)).limit(1);
+    return result;
+  } catch (error) {
+    console.error("Failed to get user by id from database");
+    throw error;
+  }
+}
+
+export async function getOrgFromUser({ id }: { id: string }) {
+  try {
+    const [result] = await db
+      .select({
+        id: org.id,
+        name: org.name,
+        createdAt: org.createdAt,
+        updatedAt: org.updatedAt,
+      })
+      .from(user)
+      .innerJoin(org, eq(user.orgId, org.id))
+      .where(eq(user.id, id))
+      .limit(1);
+
+    return result;
+  } catch (error) {
+    console.error("Failed to get org from user:", error);
+    throw error;
+  }
+}
+
+export async function getOrganizationByUserId({ id }: { id: string }) {
+  try {
+    const [result] = await db.select().from(org).where(eq(org.id, id)).limit(1);
+    return result;
+  } catch (error) {
+    console.error("Failed to get organization by user id from database");
     throw error;
   }
 }
