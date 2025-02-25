@@ -1,0 +1,1 @@
+ALTER TABLE "Connection" RENAME COLUMN "name" TO "connectionType";

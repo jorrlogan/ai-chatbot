@@ -1,0 +1,1 @@
+ALTER TABLE "Connection" ADD COLUMN "baseUrl" varchar(64) NOT NULL;

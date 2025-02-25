@@ -1,13 +1,12 @@
-"use client";
+'use client';
 
-import type { User } from "next-auth";
-import { useRouter } from "next/navigation";
+import type { User } from 'next-auth';
+import { useRouter } from 'next/navigation';
 
-import { PlusIcon } from "@/components/icons";
-import { MagnifyingGlassIcon,  } from "@heroicons/react/24/outline";
-import { SidebarHistory } from "@/components/sidebar-history";
-import { SidebarUserNav } from "@/components/sidebar-user-nav";
-import { Button } from "@/components/ui/button";
+import { PlusIcon } from '@/components/icons';
+import { SidebarHistory } from '@/components/sidebar-history';
+import { SidebarUserNav } from '@/components/sidebar-user-nav';
+import { Button } from '@/components/ui/button';
 import {
   Sidebar,
   SidebarContent,
@@ -15,9 +14,9 @@ import {
   SidebarHeader,
   SidebarMenu,
   useSidebar,
-} from "@/components/ui/sidebar";
-import Link from "next/link";
-import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
+} from '@/components/ui/sidebar';
+import Link from 'next/link';
+import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip';
 
 export function AppSidebar({ user }: { user: User | undefined }) {
   const router = useRouter();
@@ -35,45 +34,27 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               }}
               className="flex flex-row gap-3 items-center"
             >
-              <span className="text-lg font-semibold px-2 hover:bg-muted rounded-md cursor-pointer">Documents</span>
+              <span className="text-lg font-semibold px-2 hover:bg-muted rounded-md cursor-pointer">
+                Documents
+              </span>
             </Link>
-
-            <div className="flex gap-1">
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <Button
-                    variant="ghost"
-                    type="button"
-                    className="p-2 h-fit"
-                    onClick={() => {
-                      setOpenMobile(false);
-                      router.push("/search");
-                    }}
-                  >
-                    <MagnifyingGlassIcon className="size-5" strokeWidth={2} />
-                  </Button>
-                </TooltipTrigger>
-                <TooltipContent align="end">Search Documents</TooltipContent>
-              </Tooltip>
-
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <Button
-                    variant="ghost"
-                    type="button"
-                    className="p-2 h-fit"
-                    onClick={() => {
-                      setOpenMobile(false);
-                      router.push("/");
-                      router.refresh();
-                    }}
-                  >
-                    <PlusIcon />
-                  </Button>
-                </TooltipTrigger>
-                <TooltipContent align="end">New Request</TooltipContent>
-              </Tooltip>
-            </div>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Button
+                  variant="ghost"
+                  type="button"
+                  className="p-2 h-fit"
+                  onClick={() => {
+                    setOpenMobile(false);
+                    router.push('/');
+                    router.refresh();
+                  }}
+                >
+                  <PlusIcon />
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent align="end">New Request</TooltipContent>
+            </Tooltip>
           </div>
         </SidebarMenu>
       </SidebarHeader>

@@ -8,7 +8,7 @@ import { toast } from "sonner";
 import { AuthForm } from "@/components/auth-form";
 import { SubmitButton } from "@/components/submit-button";
 
-import { register, type RegisterActionState } from "../../actions";
+import { register, type RegisterActionState } from "../actions";
 
 export default function Page({ params }: { params: Promise<{ token: string }> }) {
   const router = useRouter();
@@ -39,7 +39,7 @@ export default function Page({ params }: { params: Promise<{ token: string }> })
   const handleSubmit = (formData: FormData) => {
     setEmail(formData.get("email") as string);
     formAction(formData);
-
+     
     router.push("/");
   };
 

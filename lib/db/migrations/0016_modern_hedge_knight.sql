@@ -1,0 +1,1 @@
+ALTER TABLE "Connection" ALTER COLUMN "baseUrl" SET DATA TYPE varchar(312);

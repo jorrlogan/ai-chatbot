@@ -85,6 +85,76 @@
       "when": 1740262093743,
       "tag": "0011_glamorous_mephisto",
       "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1740345326689,
+      "tag": "0012_magenta_eternals",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1740346812640,
+      "tag": "0013_gray_marvel_boy",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1740346954890,
+      "tag": "0014_quick_ink",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1740347421582,
+      "tag": "0015_clear_young_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1740347645737,
+      "tag": "0016_modern_hedge_knight",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1740347712839,
+      "tag": "0017_friendly_mole_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1740350878099,
+      "tag": "0018_rich_zarek",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1740350927433,
+      "tag": "0019_volatile_silk_fever",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1740406438115,
+      "tag": "0020_illegal_stellaris",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1740409972381,
+      "tag": "0021_chubby_thundra",
+      "breakpoints": true
     }
   ]
 }

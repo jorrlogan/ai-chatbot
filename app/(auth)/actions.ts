@@ -62,7 +62,7 @@ export const register = async (_: RegisterActionState, formData: FormData): Prom
       password: formData.get("password"),
     });
 
-    const invitation = await getInvitationByToken(validatedData.token);
+    const invitation = await getInvitationByToken(validatedData.token, validatedData.email);
 
     if (!invitation) {
       return { status: "invalid_data" };

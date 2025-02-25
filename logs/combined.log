@@ -1,0 +1,102 @@
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T14:59:21.385Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T14:59:21.430Z"}
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T15:05:45.261Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:05:45.306Z"}
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T15:06:39.796Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:06:39.802Z"}
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T15:07:42.337Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:07:42.386Z"}
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T15:08:02.228Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:08:02.234Z"}
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T15:08:56.109Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:08:56.137Z"}
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T15:10:43.750Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:10:43.759Z"}
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T15:11:17.555Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:11:17.593Z"}
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T15:11:39.794Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:11:39.836Z"}
+{"level":"info","message":"orgId: b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-24T15:11:39.836Z"}
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T15:11:59.173Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:11:59.210Z"}
+{"level":"info","message":"orgId: b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-24T15:11:59.211Z"}
+{"level":"info","message":"Checking if user already exists with email logan_orr@outlook.com","timestamp":"2025-02-24T15:13:09.541Z"}
+{"level":"info","message":"Checking if there's a pending invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:13:09.553Z"}
+{"level":"info","message":"orgId: b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-24T15:13:09.554Z"}
+{"level":"info","message":"Inserting invitation for email logan_orr@outlook.com","timestamp":"2025-02-24T15:13:09.558Z"}
+{"level":"info","message":"Sending invitation email to logan_orr@outlook.com for org A Law Firm","timestamp":"2025-02-24T15:13:09.571Z"}
+{"level":"error","message":"Error sending invitation email to logan_0rr@icloud.com: You can only send testing emails to your own email address (logan24orr@gmail.com). To send emails to other recipients, please verify a domain at resend.com/domains, and change the `from` address to an email using this domain.","timestamp":"2025-02-24T15:23:16.774Z"}
+{"level":"info","message":"Invitation email sent to logan_0rr@icloud.com","timestamp":"2025-02-24T15:31:50.956Z"}
+{"level":"info","message":"Invitation email sent to logan_0rr@icloud.com","timestamp":"2025-02-24T15:33:28.982Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:55:11.448Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:55:11.459Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:55:12.176Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:55:12.185Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:55:41.223Z"}
+{"level":"info","message":"Found 0 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:55:41.232Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:57:19.555Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:57:19.565Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:58:44.225Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:58:44.238Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:58:59.821Z"}
+{"level":"info","message":"Found 0 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:58:59.832Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:59:09.904Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T00:59:09.913Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T01:03:35.613Z"}
+{"level":"info","message":"Found 0 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T01:03:35.624Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:25:25.007Z"}
+{"level":"info","message":"Found 0 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:25:25.019Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:25:25.698Z"}
+{"level":"info","message":"Found 0 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:25:25.708Z"}
+{"level":"info","message":"Checking if invite already exists for logan_0rr@icloud.com","timestamp":"2025-02-25T02:27:12.753Z"}
+{"level":"info","message":"Inserting invite for logan_0rr@icloud.com","timestamp":"2025-02-25T02:27:12.757Z"}
+{"level":"info","message":"Getting org for b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:27:12.763Z"}
+{"level":"info","message":"Sending invitation email to logan_0rr@icloud.com","timestamp":"2025-02-25T02:27:12.765Z"}
+{"level":"info","message":"Checking if invite already exists for logan_0rr@icloud.com","timestamp":"2025-02-25T02:28:07.500Z"}
+{"level":"info","message":"Inserting invite for logan_0rr@icloud.com","timestamp":"2025-02-25T02:28:07.505Z"}
+{"level":"info","message":"Getting org for b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:28:07.514Z"}
+{"level":"info","message":"Sending invitation email to logan_0rr@icloud.com","timestamp":"2025-02-25T02:28:07.520Z"}
+{"level":"info","message":"Checking if invite already exists for logan_0rr@icloud.com","timestamp":"2025-02-25T02:29:30.645Z"}
+{"level":"info","message":"Inserting invite for logan_0rr@icloud.com","timestamp":"2025-02-25T02:29:30.660Z"}
+{"level":"info","message":"Getting org for b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:29:30.669Z"}
+{"level":"info","message":"Sending invitation email to logan_0rr@icloud.com","timestamp":"2025-02-25T02:29:30.678Z"}
+{"level":"info","message":"Invitation email sent to logan_0rr@icloud.com","timestamp":"2025-02-25T02:29:31.728Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:29:32.152Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:29:32.162Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:30:19.127Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:30:19.137Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:30:19.830Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:30:19.841Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:30:23.809Z"}
+{"level":"info","message":"Found 0 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:30:23.819Z"}
+{"level":"info","message":"Checking if invite already exists for logan_0rr@icloud.com","timestamp":"2025-02-25T02:30:41.276Z"}
+{"level":"info","message":"Inserting invite for logan_0rr@icloud.com","timestamp":"2025-02-25T02:30:41.281Z"}
+{"level":"info","message":"Getting org for b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:30:41.285Z"}
+{"level":"info","message":"Sending invitation email to logan_0rr@icloud.com","timestamp":"2025-02-25T02:30:41.288Z"}
+{"level":"info","message":"Invitation email sent to logan_0rr@icloud.com","timestamp":"2025-02-25T02:30:42.012Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:30:42.377Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:30:42.382Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:31:21.218Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:31:21.244Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:31:21.937Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:31:21.948Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:31:24.106Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:31:24.117Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:31:24.829Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:31:24.840Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:32:17.360Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:32:17.372Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:32:18.059Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:32:18.069Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:36:07.085Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:36:07.097Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:36:07.774Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:36:07.783Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:37:29.652Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:37:29.659Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:37:30.334Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:37:30.345Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:37:40.014Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:37:40.024Z"}
+{"level":"info","message":"Getting invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:37:40.693Z"}
+{"level":"info","message":"Found 1 invites for org b8c2961c-00f4-4d7c-b6c1-94b474b3c8cf","timestamp":"2025-02-25T02:37:40.702Z"}
