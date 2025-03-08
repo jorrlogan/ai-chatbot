@@ -2,7 +2,14 @@
 
 import { motion } from 'framer-motion';
 import { Button } from './ui/button';
-import { ChatRequestOptions, CreateMessage, Message } from 'ai';
+import type { ChatRequestOptions, CreateMessage, Message } from 'ai';
+import { GiPoliceBadge } from 'react-icons/gi';
+import { BiPlusMedical } from 'react-icons/bi';
+import { FaAddressCard } from 'react-icons/fa';
+import { IoReceipt } from 'react-icons/io5';
+import { RxIdCard } from 'react-icons/rx';
+import { MdQuestionMark } from 'react-icons/md';
+
 import { memo } from 'react';
 
 interface SuggestedActionsProps {
@@ -16,29 +23,45 @@ interface SuggestedActionsProps {
 function PureSuggestedActions({ chatId, append }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Next.js?',
+      icon: <BiPlusMedical />,
+      title: 'Medical Record',
+      label: 'for...',
       action: 'What are the advantages of using Next.js?',
     },
     {
-      title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
+      icon: <IoReceipt />,
+      title: 'Medical Bill',
+      label: `for...`,
       action: `Write code to demonstrate djikstra's algorithm`,
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
+      icon: <GiPoliceBadge />,
+      title: 'Police Report',
+      label: `for...`,
       action: `Help me write an essay about silicon valley`,
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
+      icon: <FaAddressCard />,
+      title: 'Drivers License',
+      label: `for...`,
+      action: 'What is the weather in San Francisco?',
+    },
+    {
+      icon: <RxIdCard />,
+      title: 'Health Insurance Card',
+      label: `for...`,
+      action: 'What is the weather in San Francisco?',
+    },
+    {
+      icon: <MdQuestionMark />,
+      title: 'Miscellaneous',
+      label: `for...`,
       action: 'What is the weather in San Francisco?',
     },
   ];
 
   return (
-    <div className="grid sm:grid-cols-2 gap-2 w-full">
+    <div className="w-full grid sm:grid-cols-3 gap-2 w-full">
       {suggestedActions.map((suggestedAction, index) => (
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -58,8 +81,9 @@ function PureSuggestedActions({ chatId, append }: SuggestedActionsProps) {
                 content: suggestedAction.action,
               });
             }}
-            className="text-left border rounded-xl px-4 py-3.5 text-sm flex-1 gap-1 sm:flex-col w-full h-auto justify-start items-start"
+            className="text-left border rounded-xl px-4 py-3.5 text-sm flex-1 gap-1 sm:flex-col w-60 h-36 justify-end items-start"
           >
+            {suggestedAction.icon}
             <span className="font-medium">{suggestedAction.title}</span>
             <span className="text-muted-foreground">
               {suggestedAction.label}
